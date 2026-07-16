@@ -1,15 +1,20 @@
-# Google GenAI SDK
 
-## Installation
+### Google GenAI SDK (Python)
 
-## Authentication
+```python
+from google import genai
 
-## Base URL
+client = genai.Client(
+     api_key="YOUR_API_KEY",
+     http_options={
+        "base_url": "https://myrikko.ai"
+    },
+)
 
-## Python example
+res = client.models.generate_content(
+    model="GLM-5.2",
+    contents="Hello, please introduce yourself briefly.",
+)
 
-## JavaScript example
-
-## Model selection
-
-## Compatibility notes
+print(res.text)
+```
