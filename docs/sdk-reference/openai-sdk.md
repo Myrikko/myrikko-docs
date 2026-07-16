@@ -1,19 +1,22 @@
-# OpenAI SDK
 
-## Installation
+### OpenAI SDK (Python)
 
-## Authentication
+```python
+from openai import OpenAI
 
-## Base URL
+client = OpenAI(
+    api_key="YOUR_API_KEY",
+    base_url="https://myrikko.ai/v1"
+)
 
-## Python example
+res = client.chat.completions.create(
+    model="Kimi K2.6",
+    messages=[{"role": "user", "content": "Hello, please introduce yourself briefly."}],
+    temperature=1,
+    max_tokens=128,
+    top_p=1,
+    stop=None
+)
 
-## JavaScript example
-
-## Streaming
-
-## Switching models
-
-## Error handling
-
-## Compatibility notes
+print(res.choices[0].message.content)
+```
