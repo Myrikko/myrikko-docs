@@ -1,0 +1,59 @@
+name: Documentation issue
+description: Report an error, missing detail, or unclear instruction in the Myrikko documentation.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve the Myrikko documentation.
+
+        Do not include API keys, billing information, personal information, or sensitive request content.
+
+  - type: input
+    id: page
+    attributes:
+      label: Documentation page
+      description: Provide the URL or file path of the affected page.
+      placeholder: docs/quickstart.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Issue category
+      options:
+        - Incorrect information
+        - Missing information
+        - Unclear instructions
+        - Broken code example
+        - Broken link
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem?
+      description: Explain what is incorrect, missing, or unclear.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected information
+      description: Describe what you expected the documentation to explain.
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: SDK or environment
+      placeholder: OpenAI Python SDK 2.x, Python 3.12
+    validations:
+      required: false
