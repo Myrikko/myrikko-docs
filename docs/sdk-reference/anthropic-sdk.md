@@ -1,17 +1,18 @@
-# Anthropic SDK
+### Anthropic SDK (Python)
 
-## Installation
+```python
+import anthropic
 
-## Authentication
+client = anthropic.Anthropic(
+    api_key="YOUR_API_KEY",
+    base_url="https://myrikko.ai"
+)
 
-## Base URL
+res = client.messages.create(
+    model="GLM-5.1",
+    max_tokens=128,
+    messages=[{"role": "user", "content": "Hello, please introduce yourself briefly."}],
+)
 
-## Python example
-
-## JavaScript example
-
-## Streaming
-
-## Model selection
-
-## Compatibility notes
+print(res.content[0].text)
+```
