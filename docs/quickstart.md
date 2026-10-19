@@ -8,7 +8,7 @@ Myrikko offers developer-friendly pricing with no platform markup on supported m
 
 ## Step 1. Create an Account
 
-Create a Myrikko account using your email address or through Github/Google account.
+Sign up for Myrikko using your email, GitHub, or Google account.
 
 ## Step 2. Get Your API Key
 
@@ -47,7 +47,7 @@ client = OpenAI(
 )
 
 res = client.chat.completions.create(
-    model="Kimi K2.6",
+    model="glm-5.3-flash",
     messages=[{"role": "user", "content": "Hello, please introduce yourself briefly."}],
     temperature=1,
     max_tokens=128,
@@ -69,7 +69,7 @@ client = anthropic.Anthropic(
 )
 
 res = client.messages.create(
-    model="GLM-5.1",
+    model="deepseek-v4.1-flash",
     max_tokens=128,
     messages=[{"role": "user", "content": "Hello, please introduce yourself briefly."}],
 )
@@ -90,7 +90,7 @@ client = genai.Client(
 )
 
 res = client.models.generate_content(
-    model="GLM-5.2",
+    model="gpt-6.1-sol",
     contents="Hello, please introduce yourself briefly.",
 )
 
