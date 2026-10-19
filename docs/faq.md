@@ -1,10 +1,10 @@
 ## 1. Why should I use Myrikko?
 
-Myrikko gives developers a simpler, more reliable, and more cost-effective way to build with Chinese frontier AI models.
+Myrikko gives developers a simpler, more reliable, and more cost-effective way to build with frontier AI models.
 
 With Myrikko, you can:
 
-* **Integrate once** — Access Chinese frontier AI models like Kimi, GLM, Qwen, and DeepSeek through a unified API. Selected global models (GPT, Claude, Gemini) are also available.
+* **Integrate once** — Access frontier AI models like Kimi, GLM, DeepSeek, GPT, Claude, Gemini, Qwen, and more through a unified API. 
 * **Evaluate models more easily** — Compare supported models through a consistent API without maintaining separate provider integrations.
 * **Improve reliability** — Intelligent routing automatically switches between supported providers when available, helping reduce service interruptions.
 * **Monitor everything in one place** — Track usage, costs, billing, and request logs from a unified dashboard.
@@ -128,7 +128,7 @@ We currently accept major credit and debit cards via Stripe.
 
 If you need support, you can contact us through:
 
-* Discord Community: https://discord.gg/pCcmCs3j3
+* Discord Community: https://discord.gg/bNRPdsXGDH
 * Email: [support@myrikko.ai](mailto:support@myrikko.ai)
 
 We will respond as quickly as possible.
@@ -139,7 +139,7 @@ We will respond as quickly as possible.
 
 We welcome your feedback.
 
-You can report bugs or request features through our Discord community: https://discord.gg/pCcmCs3j3.
+You can report bugs or request features through our Discord community:https://discord.gg/bNRPdsXGDH.
 
 ---
 
@@ -148,6 +148,6 @@ You can report bugs or request features through our Discord community: https://d
 Follow us on:
 
 * X (Twitter): https://x.com/Myrikko
-* Discord: https://discord.gg/pCcmCs3j3
+* Discord: https://discord.gg/bNRPdsXGDH
 
 We'll share announcements about new models, pricing updates, and product improvements there.
