@@ -1,10 +1,7 @@
 # Welcome to Myrikko
 
-Myrikko provides a unified API for accessing frontier AI models, including Kimi, GLM, DeepSeek, GPT, Claude, Qwen and more.
-
-With one API key and one endpoint, developers can integrate once, switch between models easily, manage billing in one place, and track usage through a unified dashboard.
-
-Myrikko offers developer-friendly pricing with no platform markup on supported models, while intelligent routing and fallbacks help improve reliability when alternative providers are available.
+Myrikko gives you access to multiple frontier AI models through a single API key.  With a single API endpoint, you can integrate once to use different models and switch between them as your needs evolve.
+It automatically routes requests based on provider latency and availability, helping you maintain reliable access to the models you use. You can manage billing across models in one place and track usage through a unified dashboard. With no platform markup, Myrikko also offers transparent, developer-friendly pricing.
 
 ## Step 1. Create an Account
 
@@ -13,27 +10,22 @@ Sign up for Myrikko using your email, GitHub, or Google account.
 ## Step 2. Get Your API Key
 
 Every new account includes a default API key that you can use immediately.
-
 You can also create a new API key:
-
-1. Go to **Workspace → Settings → API Keys**.
-2. Click **Create API Key**.
+1. Go to Workspace → Settings → API Keys.
+2. Create a new API Key.
 3. Copy and store your API key securely.
 
 ## Step 3. Configure the Base URL
 
 Configure the base URL for the SDK you are using.
-
-* OpenAI SDK: `https://myrikko.ai/v1`
-* Anthropic SDK: `https://myrikko.ai`
-* Google GenAI SDK: `https://myrikko.ai`
-
-In most cases, you only need to update your API key, base URL, and model parameter to start sending requests through Myrikko.
+- OpenAI SDK: https://myrikko.ai/v1
+- Anthropic SDK: https://myrikko.ai
+- Google GenAI SDK: https://myrikko.ai
+In most cases, you only need to update your API key, base URL, and model parameter to start sending requests through Myrikko's unified API.
 
 ## Step 4. Make Your First Request
 
-Myrikko supports multiple popular SDKs, including OpenAI SDK, Anthropic SDK, and Google GenAI SDK.
-
+Myrikko supports popular SDKs, including the OpenAI, Anthropic, and Google GenAI SDKs.
 You can choose the SDK that best matches your existing integration.
 
 ### OpenAI SDK (Python)
